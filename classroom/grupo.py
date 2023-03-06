@@ -4,7 +4,7 @@ class Grupo:
     grado = "Grado 12"
 
     def __init__(self, grupo="grupo predeterminado", asignaturas=None, estudiantes=None):
-        if(self._asignaturas is None):
+        if(asignaturas is None):
             self._asignaturas = []
         else:
             self._asignaturas = asignaturas
