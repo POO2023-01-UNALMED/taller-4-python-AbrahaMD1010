@@ -9,6 +9,9 @@ class Grupo:
         else:
             self._asignaturas = asignaturas
 
+        if (estudiantes is None):
+            estudiantes = []
+
         self._grupo = grupo       
         self.listadoAlumnos = estudiantes
 
